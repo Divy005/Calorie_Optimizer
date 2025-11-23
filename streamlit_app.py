@@ -1,6 +1,6 @@
 # streamlit_app.py
 """
-Streamlit app for the Daily Meal Planner optimization pipeline.
+Streamlit app for the Calorie Optimizer  optimization pipeline.
 """
 
 import sys
@@ -34,9 +34,9 @@ ensure_dir(PLOTS_DIR)
 # ---------------------------------------------
 # Streamlit UI
 # ---------------------------------------------
-st.set_page_config(page_title="Daily Meal Planner (Optimizer)", layout="wide")
+st.set_page_config(page_title="Calorie Optimizer ", layout="wide")
 
-st.sidebar.title("Daily Meal Planner — Settings")
+st.sidebar.title("Calorie Optimizer  — Settings")
 
 st.sidebar.markdown("### Nutritional Targets")
 cal_target = st.sidebar.number_input("Total Calories (kcal)", value=2000.0)
@@ -59,7 +59,7 @@ run = st.sidebar.button("Run Optimization")
 # ---------------------------------------------
 # Dataset Loading
 # ---------------------------------------------
-st.title("Daily Meal Planner — Optimization Engine")
+st.title("Calorie Optimizer  — Optimization Engine")
 
 if uploaded:
     st.success("Custom CSV uploaded.")
