@@ -179,3 +179,16 @@ The pipeline generates:
 - `solution_explanation.csv` — meal-wise formatted output
 - `metrics.txt` — nutrient totals and deviations
 - Visualization PNGs in `results/plots/`
+
+### Frontend Showcase
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/813bdefc-52a6-430b-9a8b-b5b427fe95c9" />
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/525ff579-f78d-447d-9131-26c1cc58b9a0" />
+
+<img width="1323" height="911" alt="image" src="https://github.com/user-attachments/assets/6f4c34af-36f7-4115-8272-a828b1b83baa" />
+
+
+
+
+
