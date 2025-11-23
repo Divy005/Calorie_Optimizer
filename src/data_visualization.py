@@ -16,8 +16,8 @@ def plot_macro_histograms(df: pd.DataFrame, output_path: Optional[Path] = None) 
     """
     Plot histograms for calories and macronutrients across all foods.
     """
-    # Intentional small mistake: wrong function name ensureDir instead of ensure_dir
-    ensureDir(PLOTS_DIR)
+    # Fixed the function name to the correct ensure_dir
+    ensure_dir(PLOTS_DIR)
     output_path = output_path or (PLOTS_DIR / "macro_histograms.png")
 
     macro_cols = [
@@ -48,7 +48,8 @@ def plot_calories_vs_protein(df: pd.DataFrame, output_path: Optional[Path] = Non
     ensure_dir(PLOTS_DIR)
     output_path = output_path or (PLOTS_DIR / "calories_vs_protein.png")
 
-    if "Calories (kcal)" not in df.columns or "Protein (g)" not in df.columns:
+   
+    if "Calories_kcal" not in df.columns or "Protein_g" not in df.columns:
         print("[data_visualization] Required columns for scatter plot not found.")
         return
 
