@@ -1,0 +1,8 @@
+Meal_Type,Food_Item,Servings,Quantity (grams),Calories Contribution (kcal),Protein Contribution (g),Carb Contribution (g)
+Breakfast,Smoothie (Fruit & Yogurt),0.5,93.35,140.0,6.0,27.5
+Breakfast,Bagel (plain),0.5,90.0,135.0,5.5,27.5
+Dinner,Beef Pho (1 large bowl),0.85460725,256.382175,384.5732625,25.6382175,47.00339875
+Dinner,Paella (1.5 cups seafood),0.63859517,234.17284883899998,351.2273435,19.1578551,44.7016619
+Lunch,Chicken Parm Sandwich,0.5,216.65,325.0,20.0,27.5
+Lunch,Ceviche (1 cup fish),0.5,60.0,90.0,12.5,7.5
+Snack,Espresso Martini (1 drink),2.407855,449.54652849999997,674.1994,1.2039275,60.196375
